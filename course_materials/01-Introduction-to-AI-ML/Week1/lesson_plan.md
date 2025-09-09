@@ -20,9 +20,7 @@ project submissions.
 
 2.  Lesson Content: The World of AI
 
-```{=html}
-<!-- -->
-```
+
 a.  What is Artificial Intelligence? A Brief History and Modern
     Landscape
 
@@ -80,9 +78,7 @@ problem falls into one of these categories.
     play a game (e.g., Chess, Go). Robotics: teaching a robot to walk or
     perform a task.
 
-```{=html}
-<!-- -->
-```
+
 c.  AI Ethics: A Call for Responsibility
 
 As AI becomes more powerful, its potential for misuse grows. A modern AI
@@ -120,9 +116,7 @@ manages environments to prevent package conflicts.
     `(base)` at the beginning of your prompt. This indicates you are in
     the default conda environment.
 
-```{=html}
-<!-- -->
-```
+
 b.  Lab 2: Your First Git/GitHub Project
 
 All coursework will be managed and submitted through GitHub. This is
