@@ -23,9 +23,29 @@ wheels/
 .installed.cfg
 *.egg
 
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+.idea_modules/
+*.iml
+
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -41,13 +61,39 @@ htmlcov/
 .cache
 .pytest_cache/
 .hypothesis/
+.mypy_cache/
 
 # Translations
 *.mo
 *.pot
 
-# Django stuff:
+# Logs
 *.log
+*.log.*
+
+# Local development
+.env
+.env.local
+.env.*.local
+
+# Dataset files (large files should be in .gitignore or git-lfs)
+data/
+*.csv
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 local_settings.py
 db.sqlite3
 
