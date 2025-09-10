@@ -125,3 +125,96 @@ PEP 8 is the official style guide for Python code. While you don't need to memor
    Comments: Use comments to explain the why, not the what. Good code should make the what obvious.
        Bad comment: ` Add 1 to i`
        Good comment: ` Correct for the off-by-one error in the source data`
+
+
+
+Here are exercises for each core Python fundamental concept to reinforce your understanding with practical data science–oriented challenges.
+
+1. Python's Philosophy & Role in Data Science
+Exercise:
+Open a Python interpreter or Jupyter notebook and type import this.
+
+Read through the Zen of Python.
+
+Choose three aphorisms and write a sentence explaining how each relates specifically to writing data science code or projects.
+
+2. Core Data Structures
+a. Lists: Ordered, Mutable Collections
+Exercise:
+
+Create a list temperatures containing daily average temperatures for a week: [22, 21, 23, 20, 19, 25, 24].
+
+Use slicing to print the temperatures from day 2 to day 5.
+
+Replace the temperature of day 3 with 26.
+
+Add two new temperature readings (27, 28) at the end using list methods.
+
+Create a list comprehension that generates a list of booleans indicating which days had temperatures above 22°C.
+
+b. Dictionaries: Key-Value Pairs
+Exercise:
+
+Create a dictionary student with keys name, age, and grades (store a list of three grades).
+
+Print the student's age.
+
+Update the dictionary to add an email key.
+
+Use a .get() method to retrieve the address (provide a default like "Unknown").
+
+Iterate over the dictionary printing keys and values in the format key: value.
+
+c. Tuples: Ordered, Immutable Collections
+Exercise:
+
+Create a tuple point representing coordinates (4, 5).
+
+Try to change the first value to 10, observe the error.
+
+Use tuple unpacking to assign the coordinates to variables x and y.
+
+Store multiple points in a list of tuples: [(1, 2), (3, 4), (5, 6)]. Write a loop that prints each point's sum (x + y).
+
+d. Sets: Unordered, Unique Collections
+Exercise:
+
+Create a list colors = ["red", "blue", "green", "red", "yellow", "blue"].
+
+Convert it to a set to identify unique colors, and print the set.
+
+Create two sets, set_a = {1, 2, 3, 4} and set_b = {3, 4, 5, 6}.
+
+Find the union, intersection, and difference of the two sets, and print each result.
+
+3. Functions: The Art of Reusable Code
+Exercise:
+
+Write a function calculate_average that takes a list of numbers and returns their average.
+
+Add a docstring explaining the function.
+
+Test the function with [10, 20, 30, 40].
+
+Modify the function to return None if the list is empty.
+
+Write a function is_above_threshold that takes a value and a threshold (default 50) and returns True if value exceeds threshold, else False.
+
+4. Writing Clean Code: An Introduction to PEP 8
+Exercise:
+
+Review the following snippet and rewrite it following PEP 8 guidelines:
+
+python
+def calcAverage(numbers):
+  sum=0
+  for n in numbers:
+       sum+=n
+  avg=sum/len(numbers)
+  return avg
+print(calcAverage([10,20,30]))
+Add meaningful comments explaining the code.
+
+Rename variables/functions to snake_case.
+
+Limit lines to under 79 characters (if necessary).
